@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="static/styles/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<style>
+<!--  table, th, td {-->
+<!--  border: 1px solid black;-->
+<!--  padding: 10px;-->
+<!--  text-align: center;-->
+<!--}-->
+<!--th {-->
+<!--background-color: green;-->
+<!--}-->
+.colorss{
+background: linear-gradient(to bottom, #78ff88 0%, #edffef 100%);
+    height:100vh;
+    padding:20px;
+    }
+</style>
+
+<body class="p-2">
+
+    <div class="colorss">
+        
+        <div>
+            <h1 class="form-heading text-center" style="font-family:Bree Serif; color:#0f3d14">Display Employee Details</h1>
+            <table class="styled-table" style="width:100% ">
+                <thead style="font-size:20px; font-family:Quicksand; ">
+                      <tr class="active-row" style="text-align:center">
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Designation</th>
+                        <th>Salary</th>
+                        <th>Grade</th>
+                        <th>Work location</th>
+                        <th>Bonus</th>
+                      </tr>
+                  </thead>
+                <tbody style="font-size:20px;font-family:Quicksand;">
+                  {% for row in rows %}
+                      <tr class="active-row" style="text-align:center;">
+                          <td>{{row[0]}}</td>
+                          <td>{{row[1]}}</td>
+                          <td>{{row[2]}}</td>
+                          <td>{{row[3]}}</td>
+                          <td>{{row[4]}}</td>
+                          <td>{{row[5]}}</td>
+                          <td>{{row[6]}}</td>
+                          <td>{{row[7]}}</td>
+                      </tr>
+                  {% endfor %}
+                </tbody>
+            </table>
+                 <div class='d-flex flex-row justify-content-center' style="font-style:Bree Serif;">
+                     <form action="/emp_menu">
+                        <a href="frontpage.html"><button class='button-add' style="font-size:15px; vertical-align:middle;"><span>Back</span></button>
+                     </form>
+                 </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

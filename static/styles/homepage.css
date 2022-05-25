@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.homepagebgimage {
+    background-image: url(Zensar.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.homepagewhitecard {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 170px;
+    width: 100vw;
+    background-size: cover;
+    padding: 25px;
+
+}
+
+.homepgheading {
+    color: #f19116;
+}
+
+.homebutton {
+    color: #ffffff;
+}
+
+.secoundlayerbgcolor {
+    background-color: #222222;
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+}
+
+.secoundlayerheading {
+    color: #f19116;
+    padding: 10px;
+    font-family: "Bree Serif";
+}
+
+.secoundlayericoncard {
+    background-color: #ffffff;
+    font-family: "Bree Serif";
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.secoundlayericoncardimage {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.secoundlayericoncardletters {
+    padding-left: 10px;
+}
+
+.secoundlayericoncardheading {
+    padding-top: 10px;
+}
+
+.backbutton {
+    color: #ffffff;
+    height: 30px;
+    width: 80px;
+    background-color: #f19116;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 10px;
+}
+
+.thirdlayerblackcard {
+    background-color: black;
+    padding: 20px;
+}
+
+.thirdlayerRsheading {
+    padding-bottom: 20px;
+    color: orange;
+    font-family: "Bree Serif";
+}
+
+.thirdlayerpara {
+    padding-bottom: 20px;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.thirdlayerparapadding {
+    padding-left: 13px;
+}
+
+.hrcolor {
+    background-color: white;
+    height: 1px;
+    border: 0px;
+}

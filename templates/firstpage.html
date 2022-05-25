@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="static/styles/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+</head>
+
+<body class="p-2">
+<div>
+        <div class='secoundlayerbgcolor'>
+            <h1 class='secoundlayerheading'>Zensar Technologies</h1>
+            <form action="/addemp">
+                <div class='secoundlayericoncard d-flex flex-row'>
+                     <button class='btn btn-warning homebutton'><img src="https://icon-library.com/images/managers-icon/managers-icon-16.jpg" height='180' width='200' class='secoundlayericoncardimage' /></button>
+                    <div class='secoundlayericoncardletters'>
+                        <h3 class='secoundlayericoncardheading'>Add Employee</h3>
+                        <p>This is a page where we can add employee details </p>
+                    </div>
+                </div>
+            </form>
+            <form action="/get">
+                <div class='secoundlayericoncard d-flex flex-row'>
+                    <button class='btn btn-warning homebutton'><img src="https://cdn0.iconfinder.com/data/icons/user-icon-profile-businessman-finance-vector-illus/100/06-1User-512.png" height='180' width='200' class='secoundlayericoncardimage' /></button>
+                    <div class='secoundlayericoncardletters'>
+                        <h3 class='secoundlayericoncardheading'>Get Employee</h3>
+                        <p>This is a page where we can Get employee details</p>
+                    </div>
+                </div>
+            </form>
+
+            <form action="/update">
+                <div class='secoundlayericoncard d-flex flex-row'>
+                    <button class='btn btn-warning homebutton'><img src="https://cdn0.iconfinder.com/data/icons/user-icon-profile-businessman-finance-vector-illus/100/06-1User-512.png" height='180' width='200' class='secoundlayericoncardimage' /></button>
+                    <div class='secoundlayericoncardletters'>
+                        <h3 class='secoundlayericoncardheading'>Update Employee</h3>
+                        <p>This is a page where we can update employee details</p>
+                    </div>
+                </div>
+            </form>
+
+            <form action="/delete">
+                <div class='secoundlayericoncard d-flex flex-row'>
+                    <button class='btn btn-warning homebutton ' onclick="window.location.href = 'delemp.html';"><img src="https://static.thenounproject.com/png/438808-200.png" height='180' width='200' class='secoundlayericoncardimage' /></button>
+                    <div class='secoundlayericoncardletters'>
+                        <h3 class='secoundlayericoncardheading'>Delete Employee</h3>
+                        <p>This is the page where we can delete the employee</p>
+                    </div>
+                </div>
+            </form>
+
+            <form action="/view">
+                <div class='secoundlayericoncard d-flex flex-row'>
+                    <button class='btn btn-warning homebutton ' onclick="window.location.href = 'delemp.html';"><img src="https://cdn.iconscout.com/icon/free/png-256/employee-1714118-1459147.png" height='180' width='200' class='secoundlayericoncardimage' /></button>
+                    <div class='secoundlayericoncardletters'>
+                        <h3 class='secoundlayericoncardheading'>Display Employee</h3>
+                        <p>This is the page where we can display the employee details</p>
+                    </div>
+                </div>
+            </form>
+            <center>
+                <a href="/"><button class='button-add' style="font-size:15px; vertical-align:middle;"><span>Home Page</span></button></a>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.homepagebgimage {
+    background-image: url("https://www.snkindia.com/images/projects/main/zensar_cc%20.png");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.homepagewhitecard {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 170px;
+    width: 100vw;
+    background-size: cover;
+    padding: 25px;
+
+}
+
+.homepgheading {
+    color: #f19116;
+}
+
+.homebutton {
+    color: #ffffff;
+}
+
+.secoundlayerbgcolor {
+    background-color: #222222;
+    background-size: cover;
+    padding: 10px;
+}
+
+.secoundlayerheading {
+    color: #f19116;
+    padding: 10px;
+    font-family: "Bree Serif";
+}
+
+.secoundlayericoncard {
+    background-color: #ffffff;
+    font-family: "Bree Serif";
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.secoundlayericoncardimage {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.secoundlayericoncardletters {
+    padding-left: 10px;
+}
+
+.secoundlayericoncardheading {
+    padding-top: 10px;
+}
+
+.backbutton {
+    color: #ffffff;
+    height: 30px;
+    width: 80px;
+    background-color: #f19116;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Bree Serif";
+}
+
+.thirdlayerblackcard {
+    background-color: black;
+    padding: 20px;
+}
+
+.thirdlayerRsheading {
+    padding-bottom: 20px;
+    color: orange;
+    font-family: "Bree Serif";
+}
+
+.thirdlayerpara {
+    padding-bottom: 20px;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.thirdlayerparapadding {
+    padding-left: 13px;
+}
+
+.hrcolor {
+    background-color: white;
+    height: 1px;
+    border: 0px;
+}
+
+.successmsg {
+    color: blue;
+    font-size: 30px;
+    font-family: "Roboto"
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #00bd48;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Bree Serif";
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-add {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Bree Serif";
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button-add span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-add span:after {
+  content: '<<';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -30px;
+  transition: 0.5s;
+}
+
+.button-add:hover span {
+  padding-left: 25px;
+}
+
+.button-add:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+.button-home {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Bree Serif";
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button-home span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-home span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.button-home:hover span {
+  padding-right: 25px;
+}
+
+.button-home:hover span:after {
+  opacity: 1;
+  right: 0;
+}

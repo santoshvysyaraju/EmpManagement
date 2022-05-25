@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="\static\styles\home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+.colorss{
+background: linear-gradient(to bottom, #8fceff 0%, #e0f2ff 100%);
+    height:160vh;
+    padding:20px;
+    }
+</style>
+</head>
+
+<body class="p-2"> 
+
+
+<div class="colorss">
+    <form action="/savedetails" method="post">
+        <div >
+            <center>
+           <h1 class="form-heading" style="font-family:Bree Serif; font-size:50px;">Add Employee</h1>
+            </center>
+        <form id="myForm">
+             <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>ID</label>
+                <input type="text" class="form-control" name="id" placeholder="ID" id="name0">
+            </div>
+            <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>Name</label>
+                <input type="text" class="form-control" name="name" placeholder="Your Name" id="name1">
+            </div>
+            <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>Department</label>
+                <input type="text" class="form-control" name="dept" placeholder="Your Department" id="name2"/>
+            </div>
+            <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>Designation</label>
+                <input type="text" class="form-control" name="desig" placeholder="Your Designation" id="name3"/>
+            </div>
+            <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>Salary</label>
+                <input type="text" class="form-control" name="salary" placeholder="Your Salary" id="name4"/>
+            </div>
+            <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>Grade</label>
+                <input type="text" class="form-control" name="grade" placeholder="Your Grade" id="name5"/>
+            </div>
+            <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>Working location</label>
+                <select name="status" class="form-control" id="name6">
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Bangalore">Bangalore</option>
+                </select>
+            </div>
+            <div class="mb-3" style="font-family:Quicksand; font-size:30px;">
+                <label>Bonus</label>
+                <input type="text" class="form-control" name="bonus" placeholder="Bonus" id="name7"/>
+            </div>
+           
+        </form>
+            <div class='d-flex flex-row justify-content-center'>
+                <button class='button'  style="font-size:20px; vertical-align:middle;"><span>Submit</span></button>
+            </div>
+        </div>
+    </form>
+    <br>
+    <center>
+        <form action="emp_menu">
+            <button class='button-add' style="font-size:15px; vertical-align:middle;"><span>Back</span></button>
+        </form>
+    </center>
+</div>
+</body>
+</html>
